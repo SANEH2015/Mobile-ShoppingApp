@@ -1,4 +1,4 @@
-
+<img src="https://socialify.git.ci/SANEH2015/Mobile-ShoppingApp/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Mobile-ShoppingApp" width="640" height="320" />
 
 <h1>Mobile-Shopping-List-App</h1> 
 
@@ -33,4 +33,4 @@ Scan the QR code using the Expo Go app (Android) or open the app in the iOS simu
 - To add an item, select a list and enter the item name and quantity.
 - To edit or delete an item, use the buttons next to the item.
 # Mobile-ShoppingApp
-# Mobile-ShoppingApp
+
