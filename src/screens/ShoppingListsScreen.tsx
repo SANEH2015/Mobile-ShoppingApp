@@ -17,6 +17,7 @@ import { RootState } from '../../store';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { useNavigation } from '@react-navigation/native';
 
+
 const { width } = Dimensions.get('window');
 const AnimatedTouchable = Animated.createAnimatedComponent(TouchableOpacity);
 
@@ -122,6 +123,8 @@ const ShoppingListsScreen = () => {
     });
 
     return (
+      <>
+     
       <AnimatedTouchable
         style={[
           styles.card,
@@ -152,10 +155,13 @@ const ShoppingListsScreen = () => {
           <Icon name="delete" size={22} color="#b07cff" />
         </TouchableOpacity>
       </AnimatedTouchable>
+      </>
+
     );
   };
 
   return (
+    <>
     <View style={styles.container}>
       <StatusBar barStyle="dark-content" />
       <View style={styles.headerContainer}>
@@ -241,6 +247,7 @@ const ShoppingListsScreen = () => {
         )}
       </Animated.View>
     </View>
+   </>
   );
 };
 
