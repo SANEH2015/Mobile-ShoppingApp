@@ -2,6 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Provider } from 'react-redux';
+import { registerRootComponent } from 'expo'
 import { store } from './store';
 import { View, StyleSheet } from 'react-native';
 import RegisterScreen from './src/screens/RegisterScreen';
