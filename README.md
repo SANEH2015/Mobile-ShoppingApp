@@ -6,7 +6,7 @@ To run this application locally, follow these steps:
 
 Clone the repository:
 ```bash
-
+https://github.com/SANEH2015/Mobile-ShoppingApp.git
 ```
 Navigate to the project folder:
 
